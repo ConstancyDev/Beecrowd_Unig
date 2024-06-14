@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int horas = 0;
+    int vel = 0;
+    float combu = 0;
+    
+    scanf ("%d", &horas);
+    scanf ("%d", &vel);
+    combu = horas * vel / 12.0;
+    printf("%.3lf\n", combu);
+ 
+    return 0;
+}
